@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F696DCDD2EBE7C2500C26E58 /* viper_movie */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = viper_movie;
-			sourceTree = "<group>";
-		};
 		F696DCEB2EBE7C2600C26E58 /* viper_movieTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = viper_movieTests;
@@ -43,6 +38,11 @@
 		F696DCF52EBE7C2600C26E58 /* viper_movieUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = viper_movieUITests;
+			sourceTree = "<group>";
+		};
+		F696DD3D2EBE830E00C26E58 /* viper_movie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = viper_movie;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		F696DCD22EBE7C2500C26E58 = {
 			isa = PBXGroup;
 			children = (
-				F696DCDD2EBE7C2500C26E58 /* viper_movie */,
+				F696DD3D2EBE830E00C26E58 /* viper_movie */,
 				F696DCEB2EBE7C2600C26E58 /* viper_movieTests */,
 				F696DCF52EBE7C2600C26E58 /* viper_movieUITests */,
 				F696DCDC2EBE7C2500C26E58 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F696DCDD2EBE7C2500C26E58 /* viper_movie */,
+				F696DD3D2EBE830E00C26E58 /* viper_movie */,
 			);
 			name = viper_movie;
 			packageProductDependencies = (
